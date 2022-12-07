@@ -1,0 +1,26 @@
+*,html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: aqua;
+}
+.navbar {
+    background-color: antiquewhite;
+    width: 100%;
+}
+.ul-navbar {
+    background-color: blue;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.li-navbar {
+    border: 1px solid red; 
+    background-color: blue
+    width: 25%;
+    color: white;
+    padding: 20px;
+    list-style: none;
+}

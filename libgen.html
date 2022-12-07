@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="libgen.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Genesis</title>
+</head>
+<body>
+    <div class="navbar_container">
+        <!-- NAVIGATION BAR -->
+        <table border="1" class="table_container" >
+            <thead>
+                <tbody>
+                    <tr>
+                        <td>RU</td>
+                        <td>FORUM</td>
+                        <td>DOWNLOAD</td>
+                        <td>UPLOAD</td>
+                        <td>LAST</td>
+                        <td>OTHERS</td>
+                        <td>TOPICS</td>
+                    </tr>
+                </tbody>
+            </thead>
+
+        </table>
+        <!-- NAVIGATION BAR END  -->
+    </div>
+
+    <div>
+        <!-- CONTENT LIBGEN  -->
+        Library Genesis
+        <p>
+            Current alias domains are libgen.rs, libgen.is, libgen.st. Update your bookmarks!
+            <br>A guide to effective catalog searching
+            <br>Try Libgen Desktop application! Now with IPFS downloads!
+            <br>Letter of Solidarity
+        </p>
+        <form>
+            <input type="text">
+            <button type="button">Search!</button>
+        </form>
+        <h3>Search in:</h3>
+        <form>
+            <input type="radio" id="nonfiction" name="search">
+            <label for="nonfiction">Non-fiction / Sci-tech</label>
+            <input type="radio" id="fiction" name="search">
+            <label for="fiction" id="fiction">Fiction</label>
+            <input type="radio" id="science" name="search">
+            <label for="science">Scientific articles</label>
+            <input type="radio" id="magazine" name="search"> 
+            <label for="magazine">Magazines</label>
+        </form>
+        <!-- CONTENT LIBGEN DONE  -->
+    </div>
+
+    <div>
+        <!-- FOOTER LIBGEN  -->
+        <br>LibGen Search options:
+        <form>
+            <label for="download">Download type:</label>
+            <select name="download" id="download">
+                <option value="Resumed">Resumed dl with original filename</option>
+                <option value="Resumed2">Resumed dl with transit filename</option>
+                <option value="Resumed3">Resumed dl with md5 filename</option>
+                <option value="Resumed4">Open file in browser</option> 
+            </select>
+        </form>
+        <form>
+            <label for="result">View results</label>
+            <input type="radio" id="simple" name="download">
+            <label for="simple">Simple</label>
+            <input type="radio" id="detailed" name="download">
+            <label for="Detailed">Detailed</label>
+        </form>
+        <form>
+            <label>Result per page</label>
+            <select name="page" id="page">
+                <option value="value">25</option>
+                <option value="value2">50</option>
+            </select>
+        </form>
+        <form>
+            <label>Search with mask (word*):</label>
+            <input type="radio" id="mask" name="masking">
+            <label>No</label>
+            <input type="radio" id="mask" name="masking">
+            <label>Yes</label>
+        </form>
+        <form>
+            <label>Search in fields:</label>
+            <input type="radio" id="column" name="fields">
+            <label>The colomn set default</label>
+            <input type="radio" id="title" name="fields">
+            <label>Title</label>
+            <input type="radio" id="author" name="fields">
+            <label>Author(s)</label>
+            <input type="radio" id="series" name="fields">
+            <label>Series</label> <br>
+            <input type="radio" id="series" name="fields">
+            <label>Publisher</label>
+            <input type="radio" id="publisher" name="fields">
+            <label>Year</label>
+            <input type="radio" id="languange" name="fields">
+            <label>Languange</label>
+            <input type="radio" id="MD5" name="fields">
+            <label>MD5</label>
+            <input type="radio" id="tags" name="fields">
+            <label>Tags</label>
+            <input type="radio" id="extension" name="fields">
+            <label>Extension</label>
+
+        </form>       
+        <!-- FOOTER LIBGEN SELESAI  -->
+    </div>
+</body>
+</html>
